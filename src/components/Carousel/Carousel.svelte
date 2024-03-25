@@ -25,7 +25,7 @@
     dispatch('pageChange', currentPageIndex)
   }
 
-  let progressValue
+  export let progressValue
   let offset = 0
   let durationMs = 0
   let pagesCount = 1
